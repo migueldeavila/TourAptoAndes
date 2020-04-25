@@ -77,8 +77,8 @@
 		if(startactions !== null, startactions() );
 	</action>
 
-<layer name="map" url="minimap1.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.25" scalechildren="true" />
-<layer name="map2" url="minimap2.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.25" scalechildren="true" visible="false"/>
+<layer name="map" y = "13%" url="minimap1.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.25" scale.mobile="0.19" scalechildren="true" />
+<layer name="map2" y="13%" url="minimap2.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.25" scale.mobile="0.19" scalechildren="true" visible="false"/>
 
 <style name="mapspot" keep="true" url="camicon.png" parent="map" align="lefttop" edge="center" scale.mobile="2"/>
 <style name="mapspot2" keep="true" url="camicon.png" parent="map2" align="lefttop" edge="center" scale.mobile="2"/>
